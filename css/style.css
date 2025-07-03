@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00ff00;
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ece5e5;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.contact-details{
+    margin-left: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    gap: 10px;
+    background-size: 50px;
+
+
+}
+.contact-details img{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 10px;
+}
+.logo img{
+    margin-left: 30px;
+    width: 150px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .contact-info span {
+    margin-right: 15px;
+}
+
+nav{
+    margin-right: 80px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    color: black;
+    
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.about-class {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: white;
+    margin-left: 20px;
+}
+
+.about-text {
+    max-width: 40%;
+    margin-left: 300px;
+    margin-top: 80px;
+
+}
+
+.about-text h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+
+.about-text button {
+    padding: 10px 20px;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:75px;
+    font-size: larger;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+.classes{
+    background-image: url(../images/about-bg.jpg);
+}
+.about-class-a {
+    background-color: #00ff00;
+
+}
+.about-class-b {
+    margin-top: 180px;
+    margin-left: 160px;
+    background-image: url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    color: white;
+    text-align: left;
+} 
+.about-class-b h2{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.about-class-b p{
+    font-style: normal;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.about-class-b button{
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: #3c4944;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.latest{
+    margin-top: 50px;
+}
+.latest-blog h2{
+    padding-left: 90px;
+    margin-left: 90px;
+    color: black;
+    font-size: 40px;
+}
+.latest-blog p{
+    margin-left: 90px;
+    padding-left: 90px;
+    padding-top: 10px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+}
+.blogs-1{
+    background-color: #545f5a;
+    max-width: fit-content;
+}
+.blogs-1 h2{
+    color: white;
+    text-align: right;
+    margin-top: 35px;
+}
+.blogs-1 p{
+    text-align: right;
+    margin-top: 15px;
+}
+
+.blogs-1 img{
+    width: 100%;
+    height: 76vh;
+}
+.blogs-2{
+    background-color: #545f5a;
+    max-width: fit-content;
+}
+.blogs-2 h2{
+    color: white;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.blogs-2 img{
+    width: 100%;
+    height: 76vh;
+}
+.blogs-2 p{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.blogs-1 button{
+    margin-left: 80%;
+    text-align: right;
+    margin-top: 50px;
+    background-color: #3c4944;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+.blogs-2 button{
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: #3c4944;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+
+}
+.client-head h2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+.client-head p{
+    color: white;
+    text-align: center;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    background-color: #00ff00;
+    padding: 30px;
+}
+.client-1{
+    margin-right: 30px;
+    background-color: black;
+}
+.client-1 img{
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.client-1 h2{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+.client-2{
+    background-color: #000;
+}
+.client-2 h2{
+    background-color: #000;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.client-2 img{
+    background-color: black;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.request-callback {
+    background-color:#00ff00;
+    color: white;
+    text-align: center;
+}
+
+.request-callback h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #000;
+}
+
+.request-callback form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-callback form input, .request-callback form textarea {
+    height: 5vh;
+    width: 500px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 30px;
+}
+.request-callback form textarea{
+    height: 20vh;
+}
+
+.request-callback form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 129px;
+    border-radius: 15px;
+}
+
+.map {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: right;
+
+}
+.boxer img{
+    width: 600px;
+    height: 100vh;
+    max-height: 1200px;
+    margin-right: 0px;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+    .request-callback form input, .request-callback form textarea {
+        margin-left:30px;
+        width: 300px;
+    }
+    .request-callback h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: #000;
+    }
+    .request-callback form button {
+        margin-left: 1%;
+    }
+    .request form{
+        width: 50%;
+    }
+    .request form input{
+        margin: 1%;
+    }
+    .boxer img{
+        width: 250px;
+        max-height: 900px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 150px;
+    }
+    .request-callback iframe{
+        display: block;
+        height: 300px;
+        margin: 3%;
+    }
+    .request-callback form input, .request-callback form textarea {
+    
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-left:30px;
+        width: 250px;
+    }
+    .request-callback form textarea{
+        margin-left: 50px;
+    }
+    .social-links {
+        margin-bottom: 20px;
+        margin-left: 220px;
+    }
+    .request-callback p {
+        margin-left: 210px;
+    }
+    .blogs-1 img{
+        width: 100%;
+        height: 76vh;
+    }
+    .blogs-2 img{
+        width: 100%;
+        height: 76vh;
+    }
+    .blogs{
+        justify-content: space-between;
+    }
+    .blogs-1 h2,.blogs-1 p,.blogs-1 button{
+        margin: 2%;
+    }
+    .blogs-2 h2,.blogs-2 p,.blogs-2 button{
+        margin: 2%;
+    }
+    .request{
+        margin: 0%;
+    }
+    .flex{
+        display: flex;
+        justify-content: right;
+        text-align: right;
+    
+    }
+    .contact-details{
+        display: none;
+    }
+}
+@media screen and (max-width: 320px){
+    nav ul{
+        display: none;
+    }
+    
+    .contact-details{
+        display: none;
+    }
+    .logo img{
+        margin-left: 40px;
+        width: 100px;
+    }
+    .contact-details{
+        margin-left: 0px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 18px;
+        gap: 10px;
+        background-size: 40px;
+        width: 100%;
+        font-size: 10px;
+    
+    
+    }
+    .contact-details img{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 10px;
+    }
+    nav ul li {
+        margin-left: 27px;
+    }
+    .about-class {
+        width: 100%;
+        height: 100vh;
+        max-height: 550px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        background-image: url(../images/hero-bg.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        margin-left: 0px;
+        padding-left: 0px;
+ 
+    }
+    
+    .about-text {
+        max-width: 40%;
+        margin-left: 100px;
+        margin-top: 80px;
+    
+    }
+    
+    .about-text h2 {
+        margin-top: 30%;
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .about-text button {
+        padding: 10px 20px;
+        background-color: rgb(25, 24, 24);
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: medium;
+        margin:auto;
+    }
+    .about-class-b {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 680px;
+        color: white;
+        text-align: left;
+    } 
+
+    .about-class-b button{
+        margin-top: 200px;
+        margin-left: 50px;
+        background-color: #3c4944;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    
+    }
+    .blogs-1{
+        background-color: #545f5a;
+        max-width: fit-content;
+    }
+    .blogs-1 h2{
+        text-align: left;
+        color: white;
+        margin-left: 1%;
+        margin-top: 35px;
+    }
+    .blogs-1 p{
+        text-align: left;
+        margin-left: 1%;
+        margin-top: 15px;
+        display: block;
+    }
+    .blogs-1 button{
+        margin-left: 1%;
+        margin-top: 50px;
+        background-color: #3c4944;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 20px;
+    
+    }
+    .blogs-2{
+        background-color: #545f5a;
+        max-width: fit-content;
+    }
+    .blogs-2 h2{
+        color: white;
+        margin-left: 1%;
+        margin-top: 35px;
+    }
+    .blogs-2 p{
+        margin-left: 1%;
+        margin-top: 15px;
+        display: block;
+    }
+    .blogs-2 button{
+        margin-left: 1%;
+        margin-top: 50px;
+        background-color: #3c4944;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 20px;
+        
+    
+    }
+    .blogs{
+        display: block;
+    }
+    .blogs-1 img{
+        height: 300px;
+        width: 100%;
+    }
+    .blogs-2 img{
+        height: 300px;
+        width: 100%;
+    }
+    .clients{
+        display: block;
+    }
+    .client-1 img,.client-2 img{
+        margin: 1%;
+    }
+    .client-head{
+        margin-top: 90px;
+    }
+    .latest-blog h2,.latest-blog p{
+        margin-left: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+    .request-callback form input, .request-callback form textarea {
+        margin: 2%;
+    }
+    .request-callback h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        text-align: center;
+        color: #000;
+        font-weight: 1000;
+    }
+    .request-callback form button {
+        margin-left: 2%;
+        margin-top: 30px;
+        font-size: larger;
+    }
+    .boxer img{
+        width: 100%;
+        max-height: 500px;
+        margin-top: 390px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .request-callback iframe{
+        padding-left: 360px;
+    }
+    .social-links {
+        margin-bottom: 20px;
+        margin-left: 350px;
+        margin-right: 30px;
+    }
+    .request-callback p {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        font-size: medium;
+        margin-left:0px;
+    }
+    .flex{
+        justify-content: left;
+        text-align: left;
+    }
+    .request-callback iframe{
+        padding: 10px;
+        margin-right: 0px;
+        padding-right: 0px;
+        height: 300px;
+    }
+    .request-callback{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .flex{
+        display: block;
+    }
+    .for-p{
+        display: none;
+    }
+    .boxer img{
+        display: none;
+    }
+    .client-1{
+        margin: 10px;
+    }
+    .request-callback form input, .request-callback form textarea {
+    
+        margin-bottom: 20px;
+        padding: 0px;
+        border: none;
+        border-radius: 5px;
+        margin-left:0px;
+        width: 250px;
+    }
+    .request-callback form textarea{
+        margin-left: 0px;
+    }
+}
